@@ -9,9 +9,9 @@ Backend engineer focused on distributed systems, event-driven architecture, and 
 ### [clinic-scheduling-azure](https://github.com/apchavez/clinic-scheduling-azure)
 [![CI](https://github.com/apchavez/clinic-scheduling-azure/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/clinic-scheduling-azure/actions/workflows/ci.yml)
 
-Azure migration of a medical appointment scheduling platform. Demonstrates that serverless, event-driven patterns are portable across clouds — the domain logic stays unchanged, only the infrastructure adapters swap.
+Azure migration of the clinic scheduling platform. Same domain logic and Clean Architecture as the AWS version — only the infrastructure adapters change. Includes event sourcing, circuit breaker + exponential retry, cursor-based pagination, ACS email notifications, and a full IaC pipeline with zero Azure cost at rest.
 
-`Java 21` `Azure Functions` `Cosmos DB` `Service Bus` `Clean Architecture` `Resilience4j` `Event Sourcing`
+`Java 21` `Azure Functions` `Cosmos DB` `Service Bus` `Clean Architecture` `Resilience4j` `Event Sourcing` `Bicep`
 
 ### [clinic-scheduling-platform](https://github.com/apchavez/clinic-scheduling-platform)
 The original AWS version of the same platform. SNS/SQS fan-out, per-country Lambda workers, DynamoDB state store, and RDS for final persistence.

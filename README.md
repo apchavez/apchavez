@@ -9,7 +9,7 @@ Backend engineer focused on distributed systems, event-driven architecture, and 
 ### [clean-arch-azure-functions-java](https://github.com/apchavez/clean-arch-azure-functions-java)
 [![CI](https://github.com/apchavez/clean-arch-azure-functions-java/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/clean-arch-azure-functions-java/actions/workflows/ci.yml)
 
-Azure migration of the medical appointment platform originally built on AWS. Same domain logic and Clean Architecture — only the infrastructure adapters change. Implements event sourcing, Resilience4j circuit breaker + exponential retry, cursor-based pagination, ACS email notifications, and a full Bicep IaC pipeline with zero Azure cost at rest.
+Azure migration of the medical appointment platform originally built on AWS. Same domain logic and Clean Architecture — only the infrastructure adapters change. Implements event sourcing, Resilience4j circuit breaker + exponential retry, cursor-based pagination, ACS email notifications, and a full Bicep IaC pipeline with zero Azure cost at rest. In-memory JUnit 5 test suite with JaCoCo 80% gate — no Azure account or environment variables required.
 
 `Java 21` `Azure Functions` `Cosmos DB` `Service Bus` `Clean Architecture` `Resilience4j` `Bicep`
 
@@ -31,14 +31,14 @@ Fully reactive REST API with Spring Boot WebFlux and R2DBC. Enforces hexagonal b
 [![Backend CI](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish.yml)
 [![Frontend CI](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish-web.yml/badge.svg)](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish-web.yml)
 
-Fullstack product administration app: Quarkus REST backend with hexagonal architecture and Redis caching, React + Material UI frontend, MongoDB persistence, and a complete Kubernetes deployment with independent CI/CD pipelines per service.
+Fullstack product administration app: Quarkus REST backend with hexagonal architecture and Redis caching, React + Material UI frontend, MongoDB persistence, and a complete Kubernetes deployment with independent CI/CD pipelines per service. Independent test suites for backend and frontend, both runnable locally without Docker.
 
 `Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kubernetes`
 
 ### [serverless-api-integration-aws](https://github.com/apchavez/serverless-api-integration-aws)
 [![CI](https://github.com/apchavez/serverless-api-integration-aws/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/serverless-api-integration-aws/actions/workflows/ci.yml)
 
-Serverless integration service that consumes external APIs, transforms and translates data, and persists to DynamoDB. 100% test coverage across all layers.
+Serverless integration service built on a clean layered architecture (handler → controller → service → repository). Consumes external APIs, transforms and translates data, and persists to DynamoDB via a swappable repository adapter. 100% test coverage across all layers — no AWS credentials or network required.
 
 `TypeScript` `AWS Lambda` `DynamoDB` `Serverless Framework`
 

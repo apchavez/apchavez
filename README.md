@@ -28,8 +28,7 @@ Fully reactive REST API with Spring Boot WebFlux and R2DBC. Enforces hexagonal b
 `Java 21` `Spring Boot WebFlux` `PostgreSQL` `Hexagonal Architecture` `Kubernetes`
 
 ### [quarkus-react-fullstack-k8s](https://github.com/apchavez/quarkus-react-fullstack-k8s)
-[![Backend CI](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish.yml)
-[![Frontend CI](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish-web.yml/badge.svg)](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/docker-publish-web.yml)
+[![CI](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/quarkus-react-fullstack-k8s/actions/workflows/ci.yml)
 
 Fullstack product administration app: Quarkus REST backend with hexagonal architecture and Redis caching, React + Material UI frontend, MongoDB persistence, and a complete Kubernetes deployment with independent CI/CD pipelines per service. Independent test suites for backend and frontend, both runnable locally without Docker.
 

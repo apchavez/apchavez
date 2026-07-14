@@ -48,10 +48,10 @@ Fullstack product administration app: Quarkus REST backend with hexagonal archit
 
 `Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kafka` `Kubernetes` `Terraform`
 
-### [spring-angular](https://github.com/apchavez/spring-angular)
-[![CI](https://github.com/apchavez/spring-angular/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-angular/actions/workflows/ci.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-angular-fullstack-k8s&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=spring-angular-fullstack-k8s)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-angular-fullstack-k8s&metric=coverage)](https://sonarcloud.io/summary/new_code?id=spring-angular-fullstack-k8s)
+### [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular)
+[![CI](https://github.com/apchavez/spring-webflux-angular/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-webflux-angular/actions/workflows/ci.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
 
 The same product-management domain — same REST surface, same `product-events` Kafka topic, same rate-limiting rules as its siblings — on a reactive Spring Boot WebFlux + R2DBC backend enforcing hexagonal boundaries with ArchUnit, an Angular 21 (standalone components, Angular Material) frontend, JWT auth, a Terraform-provisioned EKS cluster, and Helm-based Kubernetes deployment with Prometheus/Grafana observability.
 

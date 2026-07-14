@@ -1,19 +1,19 @@
 # Alexander Prieto
 
-Systems engineer with 8+ years of experience building fullstack solutions in Java (Spring Boot, WebFlux, Quarkus), Python, Go, C#, and TypeScript, with frontend in Angular, React, and Vue. I specialize in microservices and REST APIs for enterprise systems in sectors such as banking, insurance, and the public sector, with experience in scalable architectures, cloud, and CI/CD — focused on code quality, high performance, and the stability of critical applications.
+Ingeniero de sistemas con más de 8 años de experiencia construyendo soluciones fullstack en Java (Spring Boot, WebFlux, Quarkus), Python, Go, C# y TypeScript, con frontend en Angular, React y Vue. Me especializo en microservicios y APIs REST para sistemas empresariales en sectores como banca, seguros y sector público, con experiencia en arquitecturas escalables, cloud y CI/CD — enfocado en la calidad del código, alto rendimiento y la estabilidad de aplicaciones críticas.
 
-Below are two groups of portfolio projects, each implementing the **same business domain multiple times on purpose** — once per cloud/stack — to demonstrate the same engineering capabilities are portable across ecosystems, not tied to a single vendor or framework.
+A continuación se presentan dos grupos de proyectos de portafolio, cada uno implementando **el mismo dominio de negocio varias veces a propósito** — una vez por cloud/stack — para demostrar que las mismas capacidades de ingeniería son portables entre ecosistemas, y no están atadas a un solo proveedor o framework.
 
 ---
 
-## Clinic Scheduling Platform — same domain, three clouds
+## Plataforma de Agendamiento de Citas Médicas — mismo dominio, tres clouds
 
 ### [aws-typescript](https://github.com/apchavez/aws-typescript)
 [![CI](https://github.com/apchavez/aws-typescript/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/aws-typescript/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=clean-arch-aws-lambda-typescript&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=clean-arch-aws-lambda-typescript)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=clean-arch-aws-lambda-typescript&metric=coverage)](https://sonarcloud.io/summary/new_code?id=clean-arch-aws-lambda-typescript)
 
-Medical appointment scheduling on AWS: create/cancel/reschedule/get-history with cursor-based pagination, a DynamoDB event store for full appointment history, SNS/SQS fan-out to per-country Lambda workers, RDS for final persistence, SES email notifications, a hand-rolled retry + circuit breaker around every external call, JWT Lambda Authorizer, Dead Letter Queues, and CloudWatch Alarms. Ships with a one-command deploy/destroy pipeline (`workflow_dispatch`) and was smoke-tested end-to-end against a real AWS account.
+Agendamiento de citas médicas en AWS: crear/cancelar/reagendar/obtener-historial con paginación basada en cursor, un event store en DynamoDB para el historial completo de citas, fan-out vía SNS/SQS a workers Lambda por país, RDS para la persistencia final, notificaciones por correo con SES, un retry + circuit breaker hecho a mano alrededor de cada llamada externa, JWT Lambda Authorizer, Dead Letter Queues y CloudWatch Alarms. Incluye un pipeline de deploy/destroy de un solo comando (`workflow_dispatch`) y fue probado de punta a punta contra una cuenta real de AWS.
 
 `TypeScript` `AWS Lambda` `DynamoDB` `SNS/SQS` `SES` `Clean Architecture` `Serverless Framework`
 
@@ -22,7 +22,7 @@ Medical appointment scheduling on AWS: create/cancel/reschedule/get-history with
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=clean-arch-azure-functions-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=clean-arch-azure-functions-java)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=clean-arch-azure-functions-java&metric=coverage)](https://sonarcloud.io/summary/new_code?id=clean-arch-azure-functions-java)
 
-The same platform on Azure, written in **Python** (Azure Functions v2 programming model) — identical endpoints, identical ownership-based authorization, identical hand-rolled retry/circuit-breaker numbers as its siblings, ported line-for-line. Cosmos DB for state and event-sourcing, Service Bus fan-out, Azure Communication Services email, full Bicep IaC pipeline with zero Azure cost at rest. Pytest suite with a coverage gate scoped to domain/application layers — no Azure account or environment variables required to run it.
+La misma plataforma en Azure, escrita en **Python** (modelo de programación v2 de Azure Functions) — mismos endpoints, misma autorización basada en titularidad, mismos números de retry/circuit-breaker hecho a mano que sus hermanos, portada línea por línea. Cosmos DB para estado y event-sourcing, fan-out con Service Bus, correo con Azure Communication Services, pipeline IaC completo en Bicep con costo cero en Azure cuando está inactivo. Suite de Pytest con un gate de cobertura limitado a las capas de dominio/aplicación — no requiere cuenta de Azure ni variables de entorno para correr.
 
 `Python` `Azure Functions` `Cosmos DB` `Service Bus` `Clean Architecture` `Bicep`
 
@@ -31,20 +31,20 @@ The same platform on Azure, written in **Python** (Azure Functions v2 programmin
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_gcp-go&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_gcp-go)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_gcp-go&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_gcp-go)
 
-The same platform on GCP, written in **Go** (Cloud Run) — same endpoints, same ownership-based authorization, same hand-rolled retry/circuit-breaker numbers as its siblings. Firestore for state and event-sourcing, Pub/Sub fan-out to per-country Cloud Run workers (attribute-filtered push subscriptions), Cloud SQL for final persistence, SendGrid email notifications, Terraform IaC with a GCS remote-state backend. Ships with a one-command deploy/destroy pipeline and was smoke-tested end-to-end against a real GCP project.
+La misma plataforma en GCP, escrita en **Go** (Cloud Run) — mismos endpoints, misma autorización basada en titularidad, mismos números de retry/circuit-breaker hecho a mano que sus hermanos. Firestore para estado y event-sourcing, fan-out con Pub/Sub a workers de Cloud Run por país (suscripciones push filtradas por atributo), Cloud SQL para la persistencia final, notificaciones por correo con SendGrid, IaC con Terraform y backend de estado remoto en GCS. Incluye un pipeline de deploy/destroy de un solo comando y fue probado de punta a punta contra un proyecto real de GCP.
 
 `Go` `Cloud Run` `Firestore` `Pub/Sub` `Cloud SQL` `Clean Architecture` `Terraform`
 
 ---
 
-## Product Management Platform — same domain, four fullstack stacks
+## Plataforma de Gestión de Productos — mismo dominio, cuatro stacks fullstack
 
 ### [quarkus-react](https://github.com/apchavez/quarkus-react)
 [![CI](https://github.com/apchavez/quarkus-react/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/quarkus-react/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=quarkus-react-fullstack-k8s&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quarkus-react-fullstack-k8s)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quarkus-react-fullstack-k8s&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quarkus-react-fullstack-k8s)
 
-Fullstack product administration app: Quarkus REST backend with hexagonal architecture, MongoDB persistence with Redis caching, Kafka domain-event publishing (`product-events` topic), Redis-backed rate limiting on mutating endpoints, JWT auth, React + Material UI frontend, a Terraform-provisioned EKS cluster, and independent CI/CD pipelines per service.
+App fullstack de administración de productos: backend REST en Quarkus con arquitectura hexagonal, persistencia en MongoDB con caché en Redis, publicación de eventos de dominio vía Kafka (tópico `product-events`), rate limiting con Redis en los endpoints de escritura, auth con JWT, frontend en React + Material UI, un clúster EKS provisionado con Terraform, y pipelines de CI/CD independientes por servicio.
 
 `Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kafka` `Kubernetes` `Terraform`
 
@@ -53,7 +53,7 @@ Fullstack product administration app: Quarkus REST backend with hexagonal archit
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
 
-The same product-management domain — same REST surface, same `product-events` Kafka topic, same rate-limiting rules as its siblings — on a reactive Spring Boot WebFlux + R2DBC backend enforcing hexagonal boundaries with ArchUnit, an Angular 21 (standalone components, Angular Material) frontend, JWT auth, a Terraform-provisioned EKS cluster, and Helm-based Kubernetes deployment with Prometheus/Grafana observability.
+El mismo dominio de gestión de productos — misma superficie REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting que sus hermanos — sobre un backend reactivo con Spring Boot WebFlux + R2DBC que aplica límites hexagonales con ArchUnit, un frontend en Angular 21 (componentes standalone, Angular Material), auth con JWT, un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
 `Java 21` `Spring Boot WebFlux` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
 
@@ -62,7 +62,7 @@ The same product-management domain — same REST surface, same `product-events` 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
 
-The same product-management domain and Angular frontend as spring-webflux-angular's — deliberate blocking counterpart, on a classic Spring MVC backend (Spring Data JDBC over the relational store, `KafkaTemplate` for the same `product-events` topic, thread-per-request instead of reactive) enforcing the same hexagonal boundaries with ArchUnit, JWT auth, a Terraform-provisioned EKS cluster, and Helm-based Kubernetes deployment with Prometheus/Grafana observability.
+El mismo dominio de gestión de productos y el mismo frontend Angular que spring-webflux-angular — su contraparte bloqueante a propósito, sobre un backend clásico de Spring MVC (Spring Data JDBC sobre el almacén relacional, `KafkaTemplate` para el mismo tópico `product-events`, un hilo por petición en vez de reactivo) que aplica los mismos límites hexagonales con ArchUnit, auth con JWT, un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
 `Java 21` `Spring Boot MVC` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
 
@@ -71,21 +71,21 @@ The same product-management domain and Angular frontend as spring-webflux-angula
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_net-vue&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_net-vue)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_net-vue&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_net-vue)
 
-The same product-management domain — same 7 REST endpoints, same `product-events` Kafka topic, same Redis rate-limiting rules as its siblings — on an ASP.NET Core Web API backend (Clean/Hexagonal Architecture, EF Core + PostgreSQL, JWT RS256 auth) with a Vue 3 (Composition API, Vuetify) frontend, Terraform-provisioned EKS cluster, and Helm-based Kubernetes deployment with Prometheus/Grafana observability.
+El mismo dominio de gestión de productos — mismos 7 endpoints REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting con Redis que sus hermanos — sobre un backend ASP.NET Core Web API (arquitectura Clean/Hexagonal, EF Core + PostgreSQL, auth JWT RS256) con un frontend en Vue 3 (Composition API, Vuetify), un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
 `C#` `ASP.NET Core` `Vue 3` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
 
 ---
 
-## Stack
+## Stack Tecnológico
 
 | | |
 |---|---|
-| **Languages** | Java 21, TypeScript, Python, Go, C# |
+| **Lenguajes** | Java 21, TypeScript, Python, Go, C# |
 | **Cloud** | AWS (Lambda, DynamoDB, SNS/SQS, SES), Azure (Functions, Cosmos DB, Service Bus, ACS), GCP (Cloud Run, Firestore, Pub/Sub, Cloud SQL) |
-| **Frameworks** | Spring Boot WebFlux, Spring Boot MVC, Quarkus, ASP.NET Core, Azure Functions (Python v2 model) |
+| **Frameworks** | Spring Boot WebFlux, Spring Boot MVC, Quarkus, ASP.NET Core, Azure Functions (modelo Python v2) |
 | **Frontend** | React, Angular, Vue |
-| **Messaging** | Kafka, SNS/SQS, Azure Service Bus, GCP Pub/Sub |
-| **Architecture** | Clean Architecture, Hexagonal (Ports & Adapters), Event-Driven |
-| **Infrastructure** | Bicep, Terraform, Kubernetes (Helm), Docker, GitHub Actions |
-| **Data** | DynamoDB, Cosmos DB, Azure SQL, Firestore, Cloud SQL, PostgreSQL, MongoDB, Redis |
+| **Mensajería** | Kafka, SNS/SQS, Azure Service Bus, GCP Pub/Sub |
+| **Arquitectura** | Clean Architecture, Hexagonal (Ports & Adapters), Event-Driven |
+| **Infraestructura** | Bicep, Terraform, Kubernetes (Helm), Docker, GitHub Actions |
+| **Datos** | DynamoDB, Cosmos DB, Azure SQL, Firestore, Cloud SQL, PostgreSQL, MongoDB, Redis |

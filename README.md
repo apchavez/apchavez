@@ -37,7 +37,7 @@ The same platform on GCP, written in **Go** (Cloud Run) — same endpoints, same
 
 ---
 
-## Product Management Platform — same domain, three fullstack stacks
+## Product Management Platform — same domain, four fullstack stacks
 
 ### [quarkus-react](https://github.com/apchavez/quarkus-react)
 [![CI](https://github.com/apchavez/quarkus-react/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/quarkus-react/actions/workflows/ci.yml)
@@ -57,6 +57,15 @@ The same product-management domain — same REST surface, same `product-events` 
 
 `Java 21` `Spring Boot WebFlux` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
 
+### [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular)
+[![CI](https://github.com/apchavez/spring-mvc-angular/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-mvc-angular/actions/workflows/ci.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
+
+The same product-management domain and Angular frontend as spring-webflux-angular's — deliberate blocking counterpart, on a classic Spring MVC backend (Spring Data JDBC over the relational store, `KafkaTemplate` for the same `product-events` topic, thread-per-request instead of reactive) enforcing the same hexagonal boundaries with ArchUnit, JWT auth, a Terraform-provisioned EKS cluster, and Helm-based Kubernetes deployment with Prometheus/Grafana observability.
+
+`Java 21` `Spring Boot MVC` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
+
 ### [net-vue](https://github.com/apchavez/net-vue)
 [![CI](https://github.com/apchavez/net-vue/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/net-vue/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_net-vue&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_net-vue)
@@ -74,7 +83,7 @@ The same product-management domain — same 7 REST endpoints, same `product-even
 |---|---|
 | **Languages** | Java 21, TypeScript, Python, Go, C# |
 | **Cloud** | AWS (Lambda, DynamoDB, SNS/SQS, SES), Azure (Functions, Cosmos DB, Service Bus, ACS), GCP (Cloud Run, Firestore, Pub/Sub, Cloud SQL) |
-| **Frameworks** | Spring Boot WebFlux, Quarkus, ASP.NET Core, Azure Functions (Python v2 model) |
+| **Frameworks** | Spring Boot WebFlux, Spring Boot MVC, Quarkus, ASP.NET Core, Azure Functions (Python v2 model) |
 | **Frontend** | React, Angular, Vue |
 | **Messaging** | Kafka, SNS/SQS, Azure Service Bus, GCP Pub/Sub |
 | **Architecture** | Clean Architecture, Hexagonal (Ports & Adapters), Event-Driven |

@@ -12,15 +12,15 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 
 | Proyecto | Tipo | CI | Estado de infraestructura |
 |---|---|---|---|
-| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-07-15 | Deploy ✅ 2026-07-15 · Destroy ✅ 2026-07-15 (💤 costo cero) |
-| [azure-python](https://github.com/apchavez/azure-python) | Cloud | ✅ 2026-07-15 | Deploy ✅ 2026-07-15 · Destroy ✅ 2026-07-15 (💤 costo cero) |
-| [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ✅ 2026-07-15 | Deploy ✅ 2026-07-15 · Destroy ✅ 2026-07-15 (💤 costo cero) |
-| [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ❌ 2026-07-15 | — |
-| [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-07-15 | — |
-| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-07-15 | — |
-| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ✅ 2026-07-15 | — |
+| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-07-16 | Deploy ✅ 2026-07-16 · Destroy ✅ 2026-07-16 (💤 costo cero) |
+| [azure-python](https://github.com/apchavez/azure-python) | Cloud | ✅ 2026-07-16 | Deploy ❌ 2026-07-16 · Destroy ✅ 2026-07-16 (💤 costo cero) |
+| [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ✅ 2026-07-16 | Deploy ✅ 2026-07-16 · Destroy ✅ 2026-07-16 (💤 costo cero) |
+| [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ✅ 2026-07-16 | — |
+| [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-07-16 | — |
+| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-07-16 | — |
+| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ⏳ 2026-07-16 | — |
 
-_Actualizado automáticamente 2026-07-16 08:25 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-07-17 08:21 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

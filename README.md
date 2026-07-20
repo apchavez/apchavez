@@ -12,15 +12,15 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 
 | Proyecto | Tipo | CI | Estado de infraestructura |
 |---|---|---|---|
-| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-07-17 | Deploy ✅ 2026-07-17 · Destroy ✅ 2026-07-16 (⚠️ desplegado) |
+| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-07-17 | Deploy ✅ 2026-07-17 · Destroy ⏳ 2026-07-20 (💤 costo cero) |
 | [azure-python](https://github.com/apchavez/azure-python) | Cloud | ✅ 2026-07-17 | Deploy ✅ 2026-07-17 · Destroy ✅ 2026-07-16 (⚠️ desplegado) |
 | [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ✅ 2026-07-17 | Deploy ✅ 2026-07-17 · Destroy ✅ 2026-07-16 (⚠️ desplegado) |
 | [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ✅ 2026-07-17 | — |
-| [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-07-17 | — |
+| [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-07-20 | — |
 | [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-07-17 | — |
 | [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ✅ 2026-07-17 | — |
 
-_Actualizado automáticamente 2026-07-19 08:29 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-07-20 09:29 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

@@ -18,10 +18,10 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 | [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ✅ 2026-07-29 | — |
 | [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-07-29 | — |
 | [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-07-29 | — |
-| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ⏳ 2026-07-31 | — |
+| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-07-31 | — |
 | [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-07-29 | — |
 
-_Actualizado automáticamente 2026-07-31 09:12 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-08-01 08:30 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

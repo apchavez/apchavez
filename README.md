@@ -12,8 +12,8 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 
 | Proyecto | Tipo | CI | Estado de infraestructura |
 |---|---|---|---|
-| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-07-29 | Deploy — · Destroy — (💤 costo cero) |
-| [azure-python](https://github.com/apchavez/azure-python) | Cloud | ✅ 2026-07-29 | Deploy — · Destroy — (💤 costo cero) |
+| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ✅ 2026-08-03 | Deploy — · Destroy — (💤 costo cero) |
+| [azure-python](https://github.com/apchavez/azure-python) | Cloud | ✅ 2026-08-03 | Deploy — · Destroy — (💤 costo cero) |
 | [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ❌ 2026-07-31 | Deploy — · Destroy ✅ 2026-07-29 (💤 costo cero) |
 | [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ✅ 2026-08-03 | — |
 | [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-08-03 | — |
@@ -21,7 +21,7 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 | [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-07-31 | — |
 | [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-07-29 | — |
 
-_Actualizado automáticamente 2026-08-03 09:59 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-08-04 08:49 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

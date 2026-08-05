@@ -17,11 +17,11 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 | [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ❌ 2026-07-31 | Deploy — · Destroy ✅ 2026-07-29 (💤 costo cero) |
 | [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ✅ 2026-08-03 | — |
 | [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ✅ 2026-08-03 | — |
-| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-07-29 | — |
+| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ✅ 2026-08-04 | — |
 | [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-07-31 | — |
 | [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-07-29 | — |
 
-_Actualizado automáticamente 2026-08-04 08:49 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-08-05 08:47 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

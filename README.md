@@ -65,36 +65,36 @@ La misma plataforma en GCP, escrita en **Go** (Cloud Run) — mismos endpoints, 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_quarkus-react&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_quarkus-react)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_quarkus-react&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_quarkus-react)
 
-App fullstack de administración de productos: backend REST en Quarkus con arquitectura hexagonal, persistencia en MongoDB con caché en Redis, publicación de eventos de dominio vía Kafka (tópico `product-events`), rate limiting con Redis en los endpoints de escritura, auth con JWT, frontend en React + Material UI, un clúster EKS provisionado con Terraform, y pipelines de CI/CD independientes por servicio.
+App fullstack de administración de productos: backend REST en Quarkus con arquitectura hexagonal, persistencia en MongoDB con caché en Redis, publicación de eventos de dominio vía Kafka (tópico `product-events`), rate limiting con Redis en los endpoints de escritura, auth con JWT, frontend en React + Material UI, despliegue en Kubernetes vía Helm, y pipelines de CI/CD independientes por servicio.
 
-`Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kafka` `Kubernetes` `Terraform`
+`Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kafka` `Kubernetes`
 
 ### [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular)
 [![CI](https://github.com/apchavez/spring-webflux-angular/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-webflux-angular/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-webflux-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-webflux-angular)
 
-El mismo dominio de gestión de productos — misma superficie REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting que sus hermanos — sobre un backend reactivo con Spring Boot WebFlux + R2DBC que aplica límites hexagonales con ArchUnit, un frontend en Angular 21 (componentes standalone, Angular Material), auth con JWT, un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
+El mismo dominio de gestión de productos — misma superficie REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting que sus hermanos — sobre un backend reactivo con Spring Boot WebFlux + R2DBC que aplica límites hexagonales con ArchUnit, un frontend en Angular 21 (componentes standalone, Angular Material), auth con JWT, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
-`Java 21` `Spring Boot WebFlux` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
+`Java 21` `Spring Boot WebFlux` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes`
 
 ### [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular)
 [![CI](https://github.com/apchavez/spring-mvc-angular/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-mvc-angular/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_spring-mvc-angular&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_spring-mvc-angular)
 
-El mismo dominio de gestión de productos y el mismo frontend Angular que spring-webflux-angular — su contraparte bloqueante a propósito, sobre un backend clásico de Spring MVC (Spring Data JDBC sobre el almacén relacional, `KafkaTemplate` para el mismo tópico `product-events`, un hilo por petición en vez de reactivo) que aplica los mismos límites hexagonales con ArchUnit, auth con JWT, un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
+El mismo dominio de gestión de productos y el mismo frontend Angular que spring-webflux-angular — su contraparte bloqueante a propósito, sobre un backend clásico de Spring MVC (Spring Data JDBC sobre el almacén relacional, `KafkaTemplate` para el mismo tópico `product-events`, un hilo por petición en vez de reactivo) que aplica los mismos límites hexagonales con ArchUnit, auth con JWT, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
-`Java 21` `Spring Boot MVC` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
+`Java 21` `Spring Boot MVC` `Angular` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes`
 
 ### [net-vue](https://github.com/apchavez/net-vue)
 [![CI](https://github.com/apchavez/net-vue/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/net-vue/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_net-vue&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_net-vue)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_net-vue&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_net-vue)
 
-El mismo dominio de gestión de productos — mismos 7 endpoints REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting con Redis que sus hermanos — sobre un backend ASP.NET Core Web API (arquitectura Clean/Hexagonal, EF Core + PostgreSQL, auth JWT RS256) con un frontend en Vue 3 (Composition API, Vuetify), un clúster EKS provisionado con Terraform, y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
+El mismo dominio de gestión de productos — mismos 7 endpoints REST, mismo tópico Kafka `product-events`, mismas reglas de rate limiting con Redis que sus hermanos — sobre un backend ASP.NET Core Web API (arquitectura Clean/Hexagonal, EF Core + PostgreSQL, auth JWT RS256) con un frontend en Vue 3 (Composition API, Vuetify), y despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana.
 
-`C#` `ASP.NET Core` `Vue 3` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes` `Terraform`
+`C#` `ASP.NET Core` `Vue 3` `PostgreSQL` `Kafka` `Hexagonal Architecture` `Kubernetes`
 
 ### [spring-jpa-native](https://github.com/apchavez/spring-jpa-native)
 [![CI](https://github.com/apchavez/spring-jpa-native/actions/workflows/ci.yml/badge.svg)](https://github.com/apchavez/spring-jpa-native/actions/workflows/ci.yml)

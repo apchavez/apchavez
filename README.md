@@ -65,7 +65,7 @@ La misma plataforma en GCP, escrita en **Go** (Cloud Run) — mismos endpoints, 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=apchavez_quarkus-react&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=apchavez_quarkus-react)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=apchavez_quarkus-react&metric=coverage)](https://sonarcloud.io/summary/new_code?id=apchavez_quarkus-react)
 
-App fullstack de administración de productos: backend REST en Quarkus con arquitectura hexagonal, persistencia en MongoDB con caché en Redis, publicación de eventos de dominio vía Kafka (tópico `product-events`), rate limiting con Redis en los endpoints de escritura, auth con JWT, frontend en React + Material UI, despliegue en Kubernetes vía Helm, y pipelines de CI/CD independientes por servicio.
+App fullstack de administración de productos: backend REST en Quarkus con arquitectura hexagonal, persistencia en MongoDB con caché en Redis, publicación de eventos de dominio vía Kafka (tópico `product-events`), rate limiting con Redis en los endpoints de escritura, auth con JWT, frontend en React + Material UI, despliegue en Kubernetes vía Helm con observabilidad Prometheus/Grafana, y pipelines de CI/CD independientes por servicio.
 
 `Java 21` `Quarkus` `React` `MongoDB` `Redis` `Kafka` `Kubernetes`
 

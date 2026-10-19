@@ -12,16 +12,16 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 
 | Proyecto | Tipo | CI | Estado de infraestructura |
 |---|---|---|---|
-| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ❌ 2026-10-17 | Deploy — · Destroy — (💤 costo cero) |
+| [aws-typescript](https://github.com/apchavez/aws-typescript) | Cloud | ❌ 2026-10-18 | Deploy — · Destroy — (💤 costo cero) |
 | [azure-python](https://github.com/apchavez/azure-python) | Cloud | ❌ 2026-09-07 | Deploy — · Destroy — (💤 costo cero) |
 | [gcp-go](https://github.com/apchavez/gcp-go) | Cloud | ❌ 2026-10-16 | Deploy — · Destroy ✅ 2026-07-29 (💤 costo cero) |
 | [quarkus-react](https://github.com/apchavez/quarkus-react) | Fullstack | ❌ 2026-10-18 | — |
 | [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ❌ 2026-10-18 | — |
-| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ❌ 2026-10-17 | — |
-| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-10-09 | — |
-| [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-10-17 | — |
+| [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ❌ 2026-10-18 | — |
+| [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-10-18 | — |
+| [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-10-18 | — |
 
-_Actualizado automáticamente 2026-10-18 10:49 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-10-19 12:50 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 

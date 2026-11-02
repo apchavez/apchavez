@@ -19,9 +19,9 @@ A continuación se presentan dos grupos de proyectos de portafolio, cada uno imp
 | [spring-webflux-angular](https://github.com/apchavez/spring-webflux-angular) | Fullstack | ❌ 2026-10-31 | — |
 | [spring-mvc-angular](https://github.com/apchavez/spring-mvc-angular) | Fullstack | ❌ 2026-10-31 | — |
 | [net-vue](https://github.com/apchavez/net-vue) | Fullstack | ❌ 2026-10-31 | — |
-| [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-10-30 | — |
+| [spring-jpa-native](https://github.com/apchavez/spring-jpa-native) | Fullstack | ✅ 2026-11-01 | — |
 
-_Actualizado automáticamente 2026-11-01 13:05 UTC por [update-status.yml](.github/workflows/update-status.yml)._
+_Actualizado automáticamente 2026-11-02 15:28 UTC por [update-status.yml](.github/workflows/update-status.yml)._
 
 <!-- STATUS:END -->
 
